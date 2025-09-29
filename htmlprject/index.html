@@ -5,24 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>character creation</title>
 </head>
-<body>
- <h1>Modify your character</h1>
- <p><strong>
-THIS WILL BE THE APPERANCE OF YOUR CHARACTER
-</strong>
- </p>
+<body style="background-color: cadetblue;">
+     <h1>Modify your character</h1>
+ <p><strong>THIS WILL BE THE APPERANCE OF YOUR CHARACTER</strong></p>
  choose wisely
  
     <form action="results.html">
 <p>Hair type</p>
     <input type="radio" name="hairtype" id="hair1" value="curly">
-         <label for="hair1">hair1</label>
+         <label for="hair1">curly</label>
 <br>
     <input type="radio" name="hairtype" id="hair2" value="straight">
-        <label for="hair2">hair 2</label>
+        <label for="hair2">straight</label>
 <br>
     <input type="radio" name="hairtype" id="hair3" value="puff">
-        <label for="hair3">hair 3</label>
+        <label for="hair3">puff</label>
 <p>Hair color</p>
     <select name="haircolor" id="hcolor">
         <option value="blue">blue</option>
@@ -30,15 +27,26 @@ THIS WILL BE THE APPERANCE OF YOUR CHARACTER
         <option value="brown">brown</option>
     </select>
 <p></p>
+gender
+<br>
+    <input type="radio" name="gender" id="m" value="male">
+    <label for="m">male</label>
+    <input type="radio" name="gender" id="f" value="female">
+    <label for="f">female</label>
+<p></p>
     <label for="personality">personaltiy</label>
 <p></p>
     <textarea name="personality" id="personality" placeholder="type your characters wanted personalit here"></textarea>
 <p></p>
 submit to view character
 <br>
-<input type="submit">
+    <input type="submit">
 
 </form>
 
+<p></p>
+    Example character
+<br>
+    <img src="images/IMG_0246.jpeg" width="200">
 </body>
 </html>
